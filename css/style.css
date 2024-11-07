@@ -51,47 +51,6 @@ header {
     background-size: cover;
 }
 
-nav {
-    width: 100%;
-    height: 5rem;
-    margin: 10px 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
-
-.navBar {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    list-style: none;
-}
-
-.navBar li {
-    width: 10%;
-    height: 100%;
-    display: flex;
-    text-align: center;
-    align-content: center;
-}
-
-.navBar a {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    align-content: center;
-    text-decoration: none;
-    color: #000000;
-}
-
 .socialHeader {
     width: 25%;
     height: 153px;
@@ -124,14 +83,70 @@ nav {
     color: #000000;
 }
 
+.gitHub:hover { border-bottom: 5px solid #000000; }
+.instagram:hover { border-bottom: 5px solid #F58529; }
+.whatsapp:hover { border-bottom: 5px solid #25D366; }
+
+nav {
+    width: 100%;
+    height: 5rem;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    background-color: var(--colorPalletThree);
+}
+
+.navBar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    list-style: none;
+}
+
+.navBar li {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.navBar a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.navBar a:hover {
+    background-color: var(--colorPalletTwo);
+    color: #000000;
+}
+.navBar a:active {
+    background-color: var(--colorPalletOne);
+    color: #FFFFFF;
+}
+
 main {
     width: 100%;
     height: 75rem;
     display: flex;
+    overflow-x: auto;
 }
 
 #sideBar {
-    width: 15%;
+    width: 15rem;
     height: 100%;
     display: none;
 }
@@ -140,13 +155,14 @@ main {
     position: fixed;
     top: 0;
     left: 0;
-    width: 175px;
+    width: 12rem;
     height: 100%;
     display: none;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
+    background-color: var(--colorPalletThree);
 }
 
 #sideBarMenu li {
@@ -161,10 +177,21 @@ main {
     height: 100%;
     text-align: center;
     align-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#sideBarMenu a:hover {
+    background-color: var(--colorPalletTwo);
+    color: #000000;
+}
+#sideBarMenu a:active {
+    background-color: var(--colorPalletOne);
+    color: #FFFFFF;
 }
 
 article {
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -177,6 +204,8 @@ section {
     padding: 2rem;
 }
 
+section:nth-child(odd) { background-color: var(--colorPalletTwo); }
+
 footer {
     width: 100%;
     height: 10rem;
@@ -186,6 +215,7 @@ footer {
     align-content: center;
     justify-content: space-between;
     align-items: center;
+    background: var(--colorPalletOne);
 }
 
 footer ul {
@@ -214,7 +244,16 @@ footer ul {
     height: 100%;
     align-content: center;
     text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footerBar a:hover {
+    background-color: var(--colorPalletTwo);
     color: #000000;
+}
+.footerBar a:active {
+    background-color: var(--colorPalletThree);
+    color: #FFFFFF;
 }
 
 .contactInfo {
@@ -245,19 +284,7 @@ footer ul {
     align-content: center;
 }
 
-address {
-    width: 100%;
-    height: 50%;
-    display: flex;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-address a {
-    width: 30%;
-    height: 45%;
-    text-align: center;
-    align-content: center;
+.socialFooter a {
+    text-decoration: none;
+    color: #FFFFFF;
 }
