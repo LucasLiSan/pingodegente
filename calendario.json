@@ -1,0 +1,2302 @@
+{
+    "calendario_escolar": [
+        {
+            "mes": "Janeiro",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "FÉRIAS",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Fevereiro",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "PLANEJAMENTO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "PLANEJAMENTO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "PLANEJAMENTO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Abril",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Domingo",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "CONSELHO DE CLASSE",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "22/02/2024",
+                            "descricao_evento": "Projeto: Registro Nossa Cidade",
+                            "participantes": ["JARDIM 1", "1º ANO"]
+                        }
+                    ]
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        },
+        {
+            "mes": "Março",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 2,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 3,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 4,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 5,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 6,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 7,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 8,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 9,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 10,
+                    "dia_semana": "Domingo",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 11,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 12,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 13,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 14,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 15,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 16,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 17,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 18,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 19,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 20,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 21,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 22,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 23,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 24,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                },
+                {
+                    "dia": 25,
+                    "dia_semana": "Segunda-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 26,
+                    "dia_semana": "Terça-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 27,
+                    "dia_semana": "Quarta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 28,
+                    "dia_semana": "Quinta-feira",
+                    "situacao": "LETIVO",
+                    "eventos": []
+                },
+                {
+                    "dia": 29,
+                    "dia_semana": "Sexta-feira",
+                    "situacao": "FERIADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 30,
+                    "dia_semana": "Sábado",
+                    "situacao": "SÁBADO",
+                    "eventos": []
+                },
+                {
+                    "dia": 31,
+                    "dia_semana": "Domingo",
+                    "situacao": "DOMINGO",
+                    "eventos": []
+                }
+            ]
+        }
+    ]
+}  

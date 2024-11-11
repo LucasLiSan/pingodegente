@@ -3,10 +3,9 @@
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
             <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon-32x32.png">
             <link rel="stylesheet" href="css/style.css">
+            
             <title>CALENDÁRIO ESCOLAR</title>
         </head>
         <body>
@@ -44,58 +43,69 @@
                 </ul>
                     </ul>
                 </aside>
-                <article>
+                <article class="articleCalendar">
                     <section>
-                        <div class="mobile-header z-depth-1">
-                            <div class="row">
-                                <div class="col-2">
-                                    <a href="#" data-activates="sidebar" class="button-collapse" style="">
-                                        <i class="material-icons">menu</i>
-                                    </a>
-                                </div>
-                                <div class="col">
-                                    <h4>Events</h4>
-                                </div>
+                        <h1 class="currentDate"><span id="mouth">Novembro</span> <span id="year">2024</span></h1>
+                        <h2 class="schoolDays"><span id="shoolDaysCurrent">176</span> <span>/200</span></h2>
+                        <div class="calendar">
+                            <div id="titleCalendar">
+                                <span>Dom</span>
+                                <span>Seg</span>
+                                <span>Ter</span>
+                                <span>Qua</span>
+                                <span>Qui</span>
+                                <span>Sex</span>
+                                <span>Sab</span>
                             </div>
-                        </div>
-                        <div class="main-wrapper">
-                            <div class="content-wrapper grey lighten-3">
-                                <div class="container">
-                                    <div class="calendar-wrapper z-depth-2">
-                                        <div class="header-background">
-                                            <div class="calendar-header">
-                                                <a class="prev-button" id="prev">
-                                                    <i class="material-icons">keyboard_arrow_left</i>
-                                                </a>
-                                                <a class="next-button" id="next">
-                                                    <i class="material-icons">keyboard_arrow_right</i>
-                                                </a>
-                                                <div class="row header-title">
-                                                    <div class="header-text">
-                                                        <h3 id="month-name">February</h3>
-                                                        <h5 id="todayDayName">Today is Friday 7 Feb</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="calendar-content">
-                                            <div id="calendar-table" class="calendar-cells">
-                                                <div id="table-header">
-                                                    <div class="row">
-                                                        <div class="col">Mon</div>
-                                                        <div class="col">Tue</div>
-                                                        <div class="col">Wed</div>
-                                                        <div class="col">Thu</div>
-                                                        <div class="col">Fri</div>
-                                                        <div class="col">Sat</div>
-                                                        <div class="col">Sun</div>
-                                                    </div>
-                                                </div>
-                                                <div id="table-body" class=""></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div id="bodyCalendar">
+                                <script src="js/calendarScript.js"></script>
+                            </div>
+                            <div class="events">
+                                <p class="event">
+                                    <span class="eventDate">02/11/2024</span>
+                                    <span class="eventDescrition">FERIADO: "FINADOS"</span>
+                                    <span class="eventGuests">ESCOLA TODA</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">15/11/2024</span>
+                                    <span class="eventDescrition">FERIADO: "PROCLAMAÇÃO DA REPÚBLICA"</span>
+                                    <span class="eventGuests">ESCOLA TODA</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">20/11/2024</span>
+                                    <span class="eventDescrition">FERIADO: "CONSCIÊNCIA NEGRA"</span>
+                                    <span class="eventGuests">ESCOLA TODA</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">22/11/2024</span>
+                                    <span class="eventDescrition">PROJETO: "REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA"</span>
+                                    <span class="eventGuests">JARDIM 1-A, JARDIM 1-B, JARDIM 2-A, JARDIM 2-B</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">26/11/2024</span>
+                                    <span class="eventDescrition">PROJETO: "REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA"</span>
+                                    <span class="eventGuests">1º ANO-A, 1º ANO-B, 2º ANO-A, 2º ANO-B</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">26/11/2024</span>
+                                    <span class="eventDescrition">PROJETO: "REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA"</span>
+                                    <span class="eventGuests">1º ANO-A, 1º ANO-B, 2º ANO-A, 2º ANO-B</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">27/11/2024</span>
+                                    <span class="eventDescrition">PROJETO: "REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA"</span>
+                                    <span class="eventGuests">3º ANO-A, 3º ANO-B, 4º ANO-A, 4º ANO-B</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">28/11/2024</span>
+                                    <span class="eventDescrition">PROJETO: "REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA"</span>
+                                    <span class="eventGuests">5º ANO-A</span>
+                                </p>
+                                <p class="event">
+                                    <span class="eventDate">30/11/2024</span>
+                                    <span class="eventDescrition">FERIADO: "ANIVERSÁRIO DE REGISTRO"</span>
+                                    <span class="eventGuests">ESCOLA TODA</span>
+                                </p>
                             </div>
                         </div>
                     </section>
@@ -121,12 +131,5 @@
                 </div>
             </footer>
         </body>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-        <script>
-            $(".button-collapse").sideNav();
-        </script>
         <script src="js/script.js"></script>
     </html>
-    <!--https://codepen.io/just_monk/pen/ZavoQq?editors=1010-->>
