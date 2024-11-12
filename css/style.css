@@ -252,18 +252,21 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 .container .card .face.face1 .cardOne {
     background-color: #FFFFFF;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .container .card .face.face1 .cardTwo {
     background-color: #FFFFFF;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .container .card .face.face1 .cardThree {
     background-color: #FFFFFF;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -307,10 +310,63 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     width: 100%;
     height: 5rem;
     font-family: var(--fontTwo);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.currentDate span {
+    height: 100%;
     text-align: center;
     align-content: center;
-    font-size: 3rem;
+}
+
+#mouth {
+    width: 20rem;
+}
+
+.currentDate button {
+    width: 2rem;
+    height: 3rem;
+    background-color: var(--colorPalletThree);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#prevMonth { margin-right: 1.5rem; }
+#prevMonth:hover {
+    box-shadow:
+                5px 0px 0px 0px var(--colorPalletOne),
+                10px 0px 0px 0 var(--colorPalletTwo),
+                15px 0px 0px 0px var(--colorPalletThree);
+}
+#prevMonth:active {
+    background-color: var(--colorPalletOne);
+    box-shadow:
+                5px 0px 0px 0px var(--colorPalletTwo),
+                10px 0px 0px 0 var(--colorPalletThree),
+                15px 0px 0px 0px var(--colorPalletOne);
+}
+
+#nextMonth { margin-left: 1.5rem; }
+#nextMonth:hover {
+    box-shadow:
+                -5px 0px 0px 0px var(--colorPalletOne),
+                -10px 0px 0px 0 var(--colorPalletTwo),
+                -15px 0px 0px 0px var(--colorPalletThree);
+}
+#nextMonth:active {
+    background-color: var(--colorPalletOne);
+    box-shadow:
+                -5px 0px 0px 0px var(--colorPalletTwo),
+                -10px 0px 0px 0 var(--colorPalletThree),
+                -15px 0px 0px 0px var(--colorPalletOne);
 }
 
 .schoolDays {
@@ -374,7 +430,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     color: #FF0000 !important
 }
 
-.previusMouth {
+.previusMouth, .nextMouth {
     background-color: #c2c2c2;
     color: #808080;
 }
