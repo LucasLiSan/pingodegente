@@ -1,0 +1,390 @@
+{
+    "cardapio_regular": [
+        {
+            "mes": "Novembro",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 4,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne moída refogado com cenoura",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne moída refogado com cenoura",
+                                    "item3": "Salada de pepino"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 5,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos com abóbora",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne em cubos com abóbora",
+                                    "item3": "Salada de acelga"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Laranja"
+                        }
+                    ]
+                },
+                {
+                    "dia": 6,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Frango cozido",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Frango cozido",
+                                    "item4": "Salada de alface e tomate"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 7,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos com cenoura e chuchu",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Carne em cubos com cenoura e chuchu"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Banana"
+                        }
+                    ]
+                },
+                {
+                    "dia": 8,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Sobrecoxa assada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Sobrecoxa assada",
+                                    "item4": "Salada de repolho"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 11,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Macarronada ao sugo",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Macarronada ao sugo",
+                                    "item2": "Almôndegas assadas",
+                                    "item3": "Salada de pepino"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 12,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Ovos mexidos com abobrinha ou omelete com abobrinha",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Ovos mexidos com abobrinha ou omelete com abobrinha",
+                                    "item4": "Salada de alface"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 13,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Frango com chuchu",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Frango com chuchu"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Banana"
+                        }
+                    ]
+                },
+                {
+                    "dia": 14,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos refogada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Carne em cubos refogada",
+                                    "item4": "Farofa de couve"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 18,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Polenta",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne moída refogada",
+                                    "item3": "Polenta",
+                                    "item4": "Salada de acelga"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 19,
+                    "desjejum": [],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Batata sauté",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Estrogonofe de frango",
+                                    "item3": "Batata sauté",
+                                    "item4": "Salada de alface"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Goiaba"
+                        }
+                    ]
+                }
+                ,
+                {
+                    "dia": 21,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada com doce de banana",
+                            "item2": "Chá"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos com abobrinha",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Carne em cubos com abobrinha"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Banana"
+                        }
+                    ]
+                },
+                {
+                    "dia": 22,
+                    "desjejum": [
+                        {
+                            "item1": "Banana",
+                            "item2": "Leite com cacau em pó"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Sobrecoxa assada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Sobrecoxa assada",
+                                    "item4": "Salada de pepino"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 25,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha de maisena",
+                            "item2": "Leite com cacau em pó"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Ovos mexidos com tomate ou omelete com tomate",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Ovos mexidos com tomate ou omelete com tomate",
+                                    "item4": "Salada de acelga"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 26,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada com margarina",
+                            "item2": "Leite"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Macarrão a bolonhesa",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Macarrão a bolonhesa",
+                                    "item2": "Salada de repolho"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 27,
+                    "desjejum": [
+                        {
+                            "item1": "Banana",
+                            "item2": "Leite e achocolatado"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Galinhada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Frango",
+                                    "item3": "Chuchu",
+                                    "item4": "Cenoura",
+                                    "item5": "Salada de alface"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Melancia"
+                        }
+                    ]
+                },
+                {
+                    "dia": 28,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito rosquinha de chocolate",
+                            "item2": "Leite"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Sobrecoxa assada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Sobrecoxa assada",
+                                    "item4": "Farofa de cenoura"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Banana"
+                        }
+                    ]
+                },
+                {
+                    "dia": 29,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada integral com margarina",
+                            "item2": "Chá"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos com mandioca",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne em cubos com mandioca",
+                                    "item4": "Salada de pepino e tomate"
+                                }
+                            ]
+                        }
+                    ],
+                    "sobremesa": []
+                }
+            ]
+        }
+    ]
+}
