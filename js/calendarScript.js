@@ -13,6 +13,91 @@ document.addEventListener("DOMContentLoaded", async function () {
     let displayedYear = today.getFullYear();
     let displayedMonth = today.getMonth();
 
+    // Initialize school days count and calculate once
+    let schoolDaysCount = calculateSchoolDaysCount(today.getFullYear(), today.getMonth());
+
+    // Function to calculate school days only once, up to the current date
+    function calculateSchoolDaysCount(currentYear, currentMonth) {
+        let countSchoolDays = 0;
+
+        // Loop through each month up to the current month and count LETIVO days
+        for (let m = 0; m <= currentMonth; m++) {
+            const currentMonthData = calendarData.calendario_escolar.find(data => data.mes === getMonthName(m) && data.ano === currentYear);
+            if (currentMonthData) {
+                currentMonthData.dias.forEach(day => {
+                    // Only count up to today's date if we are in the current month and year
+                    if (currentYear === today.getFullYear() && m === today.getMonth() && day.dia > today.getDate()) {
+                        return;
+                    }
+                    // Count the day if it's "LETIVO"
+                    if (day.situacao === "LETIVO") {
+                        countSchoolDays++;
+                    }
+                });
+            }
+        }
+
+        // Update the schoolDaysCurrent element with the count of school days
+        schoolDaysCurrent.innerText = countSchoolDays;
+        return countSchoolDays;
+    }
+
+    // Function to display all events for the current month
+    function displayMonthEvents(monthData) {
+        eventsContainer.innerHTML = ""; // Clear previous events
+        if (monthData && monthData.dias.length > 0) {
+            monthData.dias.forEach(dayData => {
+                if (dayData.eventos && dayData.eventos.length > 0) {
+                    dayData.eventos.forEach(event => {
+                        const eventElement = createEventElement(event, dayData.dia);
+                        eventsContainer.appendChild(eventElement);
+                    });
+                }
+            });
+        }
+    }
+
+    // Function to create an event element
+    function createEventElement(event, day) {
+        const eventElement = document.createElement("p");
+        eventElement.className = "event";
+
+        const dateSpan = document.createElement("span");
+        dateSpan.className = "eventDate";
+        dateSpan.innerText = `${day}/${getMonthName(displayedMonth).slice(0, 3)}`;
+
+        const descSpan = document.createElement("span");
+        descSpan.className = "eventDescrition";
+        descSpan.innerText = event.descricao_evento;
+
+        const guestsSpan = document.createElement("span");
+        guestsSpan.className = "eventGuests";
+        guestsSpan.innerText = event.participantes.length > 0 ? event.participantes.join(", ") : "NÃO HAVERÁ AULA";
+
+        eventElement.appendChild(dateSpan);
+        eventElement.appendChild(descSpan);
+        eventElement.appendChild(guestsSpan);
+
+        return eventElement;
+    }
+
+    // Function to display events for a specific day
+    function displayDayEvents(dayStatus) {
+        eventsContainer.innerHTML = ""; // Clear previous events
+
+        if (dayStatus && dayStatus.eventos.length > 0) {
+            dayStatus.eventos.forEach(event => {
+                const eventElement = createEventElement(event, dayStatus.dia);
+                eventsContainer.appendChild(eventElement);
+            });
+        } else {
+            const noEventElement = document.createElement("p");
+            noEventElement.className = "noEvent";
+            noEventElement.innerText = "NENHUM EVENTO PARA O DIA ESPECÍFICO";
+            eventsContainer.appendChild(noEventElement);
+        }
+    }
+
     // Function to display the calendar for a specific month
     function displayCalendar(year, month) {
         calendarBody.innerHTML = ""; // Clear calendar body
@@ -33,15 +118,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         // Load relevant data from JSON
         const monthData = calendarData.calendario_escolar.find(data => data.mes === getMonthName(month) && data.ano === year);
 
-        // Function to check if a day has an event or special status
-        function getDayStatus(day) {
-            if (monthData) {
-                const dayData = monthData.dias.find(d => d.dia === day);
-                return dayData ? dayData : null;
-            }
-            return null;
-        }
-
         // Populate previous month days
         for (let i = startPrevMonth; i <= prevMonthDays; i++) {
             const day = document.createElement("span");
@@ -58,10 +134,10 @@ document.addEventListener("DOMContentLoaded", async function () {
             day.innerText = i;
 
             const dayOfWeek = new Date(year, month, i).getDay();
-            const dayStatus = getDayStatus(i);
+            const dayStatus = monthData ? monthData.dias.find(d => d.dia === i) : null;
 
             // Add holiday class if day status is different from "LETIVO"
-            if (dayStatus.situacao == "FERIADO" || dayStatus.situacao == "PONTO FACULTATIVO" || dayStatus.situacao == "NÃO LETIVO" || dayStatus.situacao == "FÉRIAS" || dayStatus.situacao == "RECESSO" || dayStatus.situacao == "CONSELHO DE CLASSE" || dayStatus.situacao == "PLANEJAMENTO") {
+            if (dayStatus && (dayStatus.situacao !== "LETIVO")) {
                 day.classList.add("holiday");
             } else if (dayOfWeek === 0 || dayOfWeek === 6) {
                 // Apply weekend class only if it's not "LETIVO"
@@ -70,14 +146,13 @@ document.addEventListener("DOMContentLoaded", async function () {
 
             calendarBody.appendChild(day);
 
-            // Display events if they exist for the day
-            if (dayStatus && dayStatus.eventos.length > 0) {
-                day.classList.add("eventDay"); // Custom class for days with events
-                day.addEventListener("click", () => displayEvents(dayStatus.eventos));
-            }
+            // Add click event listener to show events of the day
+            day.addEventListener("click", () => {
+                displayDayEvents(dayStatus);
+            });
         }
 
-        // Calculate remaining slots to fill with next month's days
+        // Populate next month's days
         const remainingSlots = 35 - calendarBody.children.length;
         for (let i = 1; i <= remainingSlots; i++) {
             const day = document.createElement("span");
@@ -87,35 +162,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             calendarBody.appendChild(day);
         }
 
-        // Update the count of school days
-        updateSchoolDaysCount(year, month);
-    }
-
-    // Function to display events in the event section
-    function displayEvents(events) {
-        eventsContainer.innerHTML = ""; // Clear previous events
-
-        events.forEach(event => {
-            const eventElement = document.createElement("p");
-            eventElement.className = "event";
-
-            const dateSpan = document.createElement("span");
-            dateSpan.className = "eventDate";
-            dateSpan.innerText = event.data_evento;
-
-            const descSpan = document.createElement("span");
-            descSpan.className = "eventDescrition";
-            descSpan.innerText = event.descricao_evento;
-
-            const guestsSpan = document.createElement("span");
-            guestsSpan.className = "eventGuests";
-            guestsSpan.innerText = event.participantes.length > 0 ? event.participantes.join(", ") : "NÃO HAVERÁ AULA";
-
-            eventElement.appendChild(dateSpan);
-            eventElement.appendChild(descSpan);
-            eventElement.appendChild(guestsSpan);
-            eventsContainer.appendChild(eventElement);
-        });
+        // Display all events for the current month by default
+        displayMonthEvents(monthData);
     }
 
     // Helper function to get the month name
@@ -123,32 +171,6 @@ document.addEventListener("DOMContentLoaded", async function () {
         const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
                             "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
         return monthNames[monthIndex];
-    }
-
-    // Function to count and display school days up to the displayed month
-    function updateSchoolDaysCount(year, month) {
-        let countSchoolDays = 0;
-        const today = new Date();
-    
-        // Loop through each month up to the displayed month
-        for (let m = 0; m <= month; m++) {
-            const currentMonthData = calendarData.calendario_escolar.find(data => data.mes === getMonthName(m) && data.ano === year);
-            if (currentMonthData) {
-                currentMonthData.dias.forEach(day => {
-                    // Only count up to today's date if we are in the current month and year
-                    if (year === today.getFullYear() && m === today.getMonth() && day.dia > today.getDate()) {
-                        return;
-                    }
-                    // Count the day if it's "LETIVO"
-                    if (day.situacao === "LETIVO") {
-                        countSchoolDays++;
-                    }
-                });
-            }
-        }
-    
-        // Update the schoolDaysCurrent element with the count of school days
-        schoolDaysCurrent.innerText = countSchoolDays;
     }
 
     // Function to navigate months
@@ -168,6 +190,14 @@ document.addEventListener("DOMContentLoaded", async function () {
     document.getElementById("prevMonth").addEventListener("click", () => changeMonth(-1));
     document.getElementById("nextMonth").addEventListener("click", () => changeMonth(1));
 
-    // Initial calendar load for the current month
+    // Event listener for clicking outside the calendar to restore monthly events
+    document.addEventListener("click", (e) => {
+        if (!calendarBody.contains(e.target)) {
+            const monthData = calendarData.calendario_escolar.find(data => data.mes === getMonthName(displayedMonth) && data.ano === displayedYear);
+            displayMonthEvents(monthData);
+        }
+    });
+
+    // Initialize the calendar with the current month
     displayCalendar(displayedYear, displayedMonth);
 });
