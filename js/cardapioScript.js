@@ -1,3 +1,4 @@
+//Script de efeito de rolagem
 document.addEventListener("DOMContentLoaded", function() {
     window.addEventListener("scroll", function() {
         var scrollPosition = window.scrollY;
@@ -97,4 +98,80 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelector('.leafs').classList.remove('leafs-active');
         }
     });
+});
+
+
+//Script para o cardápio do dia
+document.addEventListener("DOMContentLoaded", async () => {
+    try {
+        // Carregar o arquivo JSON
+        const response = await fetch('cardapio.json');
+        const data = await response.json();
+
+        // Obter data atual
+        const hoje = new Date();
+        const diaAtual = hoje.getDate();
+        const mesAtual = hoje.toLocaleString('pt-BR', { month: 'long' });
+        const anoAtual = hoje.getFullYear();
+
+        // Procurar os dados do dia atual no JSON
+        const cardapioRegular = data.cardapio_regular.find(item => 
+            item.mes.toLowerCase() === mesAtual.toLowerCase() && item.ano === anoAtual
+        );
+
+        if (cardapioRegular) {
+            const diaData = cardapioRegular.dias.find(d => d.dia === diaAtual);
+
+            if (diaData) {
+                // Título com a data
+                document.querySelector('.page1-desc h3').textContent = `${diaAtual} de ${mesAtual}`;
+
+                // Desjejum
+                const desjejumContainer = document.querySelector('.page2 .pg2-white-desc');
+                desjejumContainer.innerHTML = "<hr class='hr1'><h3>DESJEJUM</h3><hr class='hr2'>";
+
+                diaData.desjejum.forEach(item => {
+                    const p = document.createElement("p");
+                    p.textContent = `${item.item1} & ${item.item2}`;
+                    desjejumContainer.appendChild(p);
+                    desjejumContainer.appendChild(document.createElement("hr"));
+                });
+
+                // Almoço
+                const almocoContainer = document.querySelector('.page3 .pg3-white-desc');
+                almocoContainer.innerHTML = `<hr class="hr1"><h3>ALMOÇO</h3><hr class="hr2"><h2>${diaData.almoco[0].prato_do_dia}</h2><hr class="hr3">`;
+
+                diaData.almoco[0].almoco_do_dia.forEach(almocoItems => {
+                    let almocoText = '';
+                    let i = 1;
+                    
+                    // Adicionar todos os itens de almoco_do_dia dinamicamente
+                    while (almocoItems[`item${i}`]) {
+                        almocoText += `${almocoItems[`item${i}`]} & `;
+                        i++;
+                    }
+                    
+                    // Remover o último "& " extra e adicionar ao contêiner
+                    almocoText = almocoText.slice(0, -3);
+                    const p = document.createElement("p");
+                    p.textContent = almocoText;
+                    almocoContainer.appendChild(p);
+                    almocoContainer.appendChild(document.createElement("hr"));
+                });
+
+                // Sobremesa
+                const sobremesaContainer = document.querySelector('.page4 .pg4-white-desc');
+                sobremesaContainer.innerHTML = "<hr class='hr1'><h3>SOBREMESA</h3><hr class='hr2'>";
+
+                diaData.sobremesa.forEach(item => {
+                    const h2 = document.createElement("h2");
+                    h2.textContent = item.item1;
+                    sobremesaContainer.appendChild(h2);
+                    sobremesaContainer.appendChild(document.createElement("hr"));
+                });
+            }
+        }
+    } catch (error) {
+        console.error('Erro ao carregar o cardápio:', error);
+    }
 });

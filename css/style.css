@@ -553,7 +553,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     position: relative;
     width: 100%;
     height: 100%;
-    background: #2D3A4B;
+    background: var(--colorPalletOne);
     color: #fff;
     -moz-transition: 0.6s ease-out all;
     -webkit-transition: 0.6s ease-out all;
@@ -571,7 +571,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     left: 20px;
     font-size: 160px;
     text-align: center;
-    font-family: "Oswald";
+    font-family: var(--fontThree);
     font-weight: 700;
     letter-spacing: 20px;
     -moz-transition: 0.6s ease-out all;
@@ -606,12 +606,12 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     left: 215px;
     top: 250px;
     padding-left: 120px;
-    background: rgba(91, 105, 118, 0.9);
+    background: #ff3366e6;
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.4)
 }
 
 .page1-desc h3 {
-    font-family: "Oswald";
+    font-family: var(--fontTwo);
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 10px
@@ -625,7 +625,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 }
 
 .page1-desc p {
-    width: 460px;
+    width: 600px;
     line-height: 40px;
     font-size: 1.2rem;
     opacity: 0.8
@@ -653,7 +653,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     height: 100%;
     bottom: -15%;
     right: 0%;
-    background: rgba(205, 211, 95, 0.9);
+    background: #f4c30180;
     -moz-transition: 0.6s ease-out all;
     -webkit-transition: 0.6s ease-out all;
     -o-transition: 0.6s ease-out all;
@@ -735,7 +735,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 }
 
 .pg2-white-desc h2 {
-    font-family: "Oswald";
+    font-family: var(--fontTwo);
     font-weight: 700;
     font-size: 4rem;
     letter-spacing: 10px;
@@ -825,7 +825,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     height: 115%;
     top: -20%;
     left: 0;
-    background: rgba(199, 63, 56, 0.9);
+    background: #ff336680;
     -moz-transition: 0.6s ease-out all;
     -webkit-transition: 0.6s ease-out all;
     -o-transition: 0.6s ease-out all;
@@ -907,7 +907,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 }
 
 .pg3-white-desc h2 {
-    font-family: "Oswald";
+    font-family: var(--fontTwo);
     font-weight: 700;
     font-size: 4rem;
     letter-spacing: 10px;
@@ -998,7 +998,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     height: 100%;
     bottom: 0;
     right: 0;
-    background: rgba(252, 219, 136, 0.9);
+    background: #f4c30180;
     -moz-transition: 0.6s ease-out all;
     -webkit-transition: 0.6s ease-out all;
     -o-transition: 0.6s ease-out all;
@@ -1082,7 +1082,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 }
 
 .pg4-white-desc h2 {
-    font-family: "Oswald";
+    font-family: var(--fontTwo);
     font-weight: 700;
     font-size: 4rem;
     letter-spacing: 10px;
@@ -1166,12 +1166,12 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     position: absolute;
     bottom: -80px;
     right: -80px;
-    font-family: "Oswald";
+    font-family: var(--fontTwo);
     font-weight: 700;
     font-size: 1.6rem;
     letter-spacing: 10px;
     padding: 100px;
-    background: rgba(91, 105, 118, 0.9);
+    background: var(--colorPalletThree);
     box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.4)
 }
 
