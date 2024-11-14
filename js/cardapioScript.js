@@ -101,77 +101,127 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-//Script para o cardápio do dia
+// Script para o cardápio do dia
 document.addEventListener("DOMContentLoaded", async () => {
-    try {
-        // Carregar o arquivo JSON
-        const response = await fetch('cardapio.json');
-        const data = await response.json();
+    let currentDate = new Date();
 
-        // Obter data atual
-        const hoje = new Date();
-        const diaAtual = hoje.getDate();
-        const mesAtual = hoje.toLocaleString('pt-BR', { month: 'long' });
-        const anoAtual = hoje.getFullYear();
+    const loadCardapio = async (date) => {
+        try {
+            // Carregar o arquivo JSON
+            const response = await fetch('cardapio.json');
+            const data = await response.json();
 
-        // Procurar os dados do dia atual no JSON
-        const cardapioRegular = data.cardapio_regular.find(item => 
-            item.mes.toLowerCase() === mesAtual.toLowerCase() && item.ano === anoAtual
-        );
+            // Obter data atual em formato compatível com JSON
+            const diaAtual = date.getDate();
+            const mesAtual = date.toLocaleString('pt-BR', { month: 'long' });
+            const anoAtual = date.getFullYear();
 
-        if (cardapioRegular) {
-            const diaData = cardapioRegular.dias.find(d => d.dia === diaAtual);
+            // Procurar os dados do mês e ano no JSON
+            const cardapioRegular = data.cardapio_regular.find(item => 
+                item.mes.toLowerCase() === mesAtual.toLowerCase() && item.ano === anoAtual
+            );
 
-            if (diaData) {
-                // Título com a data
-                document.querySelector('.page1-desc h3').textContent = `${diaAtual} de ${mesAtual}`;
+            if (cardapioRegular) {
+                const diaData = cardapioRegular.dias.find(d => d.dia === diaAtual);
 
-                // Desjejum
-                const desjejumContainer = document.querySelector('.page2 .pg2-white-desc');
-                desjejumContainer.innerHTML = "<hr class='hr1'><h3>DESJEJUM</h3><hr class='hr2'>";
+                if (diaData) {
+                    // Atualizar a data exibida no cabeçalho
+                    document.querySelector('#day').textContent = diaAtual;
+                    document.querySelector('#mouth').textContent = mesAtual;
 
-                diaData.desjejum.forEach(item => {
-                    const p = document.createElement("p");
-                    p.textContent = `${item.item1} & ${item.item2}`;
-                    desjejumContainer.appendChild(p);
-                    desjejumContainer.appendChild(document.createElement("hr"));
-                });
+                    // Configurar imagem do Desjejum
+                    const desjejumContainer = document.querySelector('.page2 .pg2-white-desc');
+                    desjejumContainer.innerHTML = "<hr class='hr1'><h3>DESJEJUM</h3><hr class='hr2'>";
+                    diaData.desjejum.forEach(desjejumItems => {
+                        let desjejumText = '';
+                        let i = 1;
 
-                // Almoço
-                const almocoContainer = document.querySelector('.page3 .pg3-white-desc');
-                almocoContainer.innerHTML = `<hr class="hr1"><h3>ALMOÇO</h3><hr class="hr2"><h2>${diaData.almoco[0].prato_do_dia}</h2><hr class="hr3">`;
+                        // Itera dinamicamente sobre os itens de desjejum
+                        while (desjejumItems[`item${i}`]) {
+                            desjejumText += `${desjejumItems[`item${i}`]} & `;
+                            i++;
+                        }
 
-                diaData.almoco[0].almoco_do_dia.forEach(almocoItems => {
-                    let almocoText = '';
-                    let i = 1;
-                    
-                    // Adicionar todos os itens de almoco_do_dia dinamicamente
-                    while (almocoItems[`item${i}`]) {
-                        almocoText += `${almocoItems[`item${i}`]} & `;
-                        i++;
+                        // Remove o último "& " extra
+                        desjejumText = desjejumText.slice(0, -3);
+                        const p = document.createElement("p");
+                        p.textContent = desjejumText;
+                        desjejumContainer.appendChild(p);
+                        desjejumContainer.appendChild(document.createElement("hr"));
+
+                        // Definir imagem de fundo para Desjejum
+                        if (desjejumItems.pic) {
+                            document.querySelector('.pg2-photo').style.backgroundImage = `url("/assets/imgs/Cardapio/${desjejumItems.pic}")`;
+                        }
+                    });
+
+                    // Configurar imagem do Almoço
+                    const almocoContainer = document.querySelector('.page3 .pg3-white-desc');
+                    almocoContainer.innerHTML = `<hr class="hr1"><h3>ALMOÇO</h3><hr class="hr2"><h2>${diaData.almoco[0].prato_do_dia}</h2><hr class="hr3">`;
+                    diaData.almoco[0].almoco_do_dia.forEach(almocoItems => {
+                        let almocoText = '';
+                        let i = 1;
+                        while (almocoItems[`item${i}`]) {
+                            almocoText += `${almocoItems[`item${i}`]} & `;
+                            i++;
+                        }
+                        almocoText = almocoText.slice(0, -3);
+                        const p = document.createElement("p");
+                        p.textContent = almocoText;
+                        almocoContainer.appendChild(p);
+                        almocoContainer.appendChild(document.createElement("hr"));
+                    });
+
+                    // Definir imagem de fundo para Almoço
+                    if (diaData.almoco[0].pic) {
+                        document.querySelector('.pg3-photo').style.backgroundImage = `url("/assets/imgs/Cardapio/${diaData.almoco[0].pic}")`;
                     }
-                    
-                    // Remover o último "& " extra e adicionar ao contêiner
-                    almocoText = almocoText.slice(0, -3);
-                    const p = document.createElement("p");
-                    p.textContent = almocoText;
-                    almocoContainer.appendChild(p);
-                    almocoContainer.appendChild(document.createElement("hr"));
-                });
 
-                // Sobremesa
-                const sobremesaContainer = document.querySelector('.page4 .pg4-white-desc');
-                sobremesaContainer.innerHTML = "<hr class='hr1'><h3>SOBREMESA</h3><hr class='hr2'>";
+                    // Configurar imagem da Sobremesa
+                    const sobremesaContainer = document.querySelector('.page4 .pg4-white-desc');
+                    sobremesaContainer.innerHTML = "<hr class='hr1'><h3>SOBREMESA</h3><hr class='hr2'>";
+                    diaData.sobremesa.forEach(sobremesaItems => {
+                        let sobremesaText = '';
+                        let i = 1;
 
-                diaData.sobremesa.forEach(item => {
-                    const h2 = document.createElement("h2");
-                    h2.textContent = item.item1;
-                    sobremesaContainer.appendChild(h2);
-                    sobremesaContainer.appendChild(document.createElement("hr"));
-                });
+                        // Itera dinamicamente sobre os itens de sobremesa
+                        while (sobremesaItems[`item${i}`]) {
+                            sobremesaText += `${sobremesaItems[`item${i}`]} & `;
+                            i++;
+                        }
+
+                        // Remove o último "& " extra
+                        sobremesaText = sobremesaText.slice(0, -3);
+                        const h2 = document.createElement("h2");
+                        h2.textContent = sobremesaText;
+                        sobremesaContainer.appendChild(h2);
+                        sobremesaContainer.appendChild(document.createElement("hr"));
+
+                        // Definir imagem de fundo para Sobremesa
+                        if (sobremesaItems.pic) {
+                            document.querySelector('.pg4-photo').style.backgroundImage = `url("/assets/imgs/Cardapio/${sobremesaItems.pic}")`;
+                        }
+                    });
+                } else {
+                    console.log('Nenhum cardápio encontrado para o dia selecionado.');
+                }
             }
+        } catch (error) {
+            console.error('Erro ao carregar o cardápio:', error);
         }
-    } catch (error) {
-        console.error('Erro ao carregar o cardápio:', error);
-    }
+    };
+
+    // Carregar o cardápio do dia atual inicialmente
+    await loadCardapio(currentDate);
+
+    // Funções de navegação entre os dias
+    document.getElementById("prevDay").addEventListener("click", async () => {
+        currentDate.setDate(currentDate.getDate() - 1);
+        await loadCardapio(currentDate);
+    });
+
+    document.getElementById("nextDay").addEventListener("click", async () => {
+        currentDate.setDate(currentDate.getDate() + 1);
+        await loadCardapio(currentDate);
+    });
 });
