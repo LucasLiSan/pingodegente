@@ -2277,7 +2277,13 @@
                     "dia": 15,
                     "dia_semana": "Terça-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "15/10/2024",
+                            "descricao_evento": "Dia do professor",
+                            "participantes": ["DATA COMEMORATIVA"]
+                        }
+                    ]
                 },
                 {
                     "dia": 16,
@@ -2463,7 +2469,13 @@
                     "dia": 12,
                     "dia_semana": "Terça-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "12/11/2024",
+                            "descricao_evento": "Dia do diretor de escola",
+                            "participantes": ["DATA COMEMORATIVA"]
+                        }
+                    ]
                 },
                 {
                     "dia": 13,
@@ -2511,7 +2523,13 @@
                     "dia": 19,
                     "dia_semana": "Terça-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "19/11/2024",
+                            "descricao_evento": "Dia da Bandeira Nacional",
+                            "participantes": ["DATA COMEMORATIVA"]
+                        }
+                    ]
                 },
                 {
                     "dia": 20,
@@ -2979,6 +2997,11 @@
                         {
                             "data_evento": "01/01/2025",
                             "descricao_evento": "Confraternização Universal",
+                            "participantes": []
+                        },
+                        {
+                            "data_evento": "01/01/2025",
+                            "descricao_evento": "Férias escolares",
                             "participantes": []
                         }
                     ]
@@ -3538,16 +3561,22 @@
                 {
                     "dia": 3,
                     "dia_semana": "Segunda-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "03/03/2025",
+                            "descricao_evento": "Carnaval",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 4,
                     "dia_semana": "Terça-feira",
-                    "situacao": "FERIADO",
+                    "situacao": "PONTO FACULTATIVO",
                     "eventos": [
                         {
-                            "data_evento": "04/03/2024",
+                            "data_evento": "04/03/2025",
                             "descricao_evento": "Carnaval",
                             "participantes": []
                         }
@@ -3556,10 +3585,10 @@
                 {
                     "dia": 5,
                     "dia_semana": "Quarta-feira",
-                    "situacao": "FERIADO",
+                    "situacao": "PONTO FACULTATIVO",
                     "eventos": [
                         {
-                            "data_evento": "05/03/2024",
+                            "data_evento": "05/03/2025",
                             "descricao_evento": "Cinzas",
                             "participantes": []
                         }
@@ -3682,7 +3711,7 @@
                 {
                     "dia": 24,
                     "dia_semana": "Segunda-feira",
-                    "situacao": "DOMINGO",
+                    "situacao": "LETIVO",
                     "eventos": []
                 },
                 {
@@ -3838,7 +3867,7 @@
                 {
                     "dia": 18,
                     "dia_semana": "Sexta-feira",
-                    "situacao": "LETIVO",
+                    "situacao": "FERIADO",
                     "eventos": [
                         {
                             "data_evento": "18/04/2025",
@@ -3964,8 +3993,14 @@
                 {
                     "dia": 2,
                     "dia_semana": "Sexta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "02/05/2025",
+                            "descricao_evento": "Sucede dia do trabalhador",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 3,
@@ -4288,8 +4323,14 @@
                 {
                     "dia": 20,
                     "dia_semana": "Sexta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "20/06/2025",
+                            "descricao_evento": "Sucede ao dia de corpus Christi",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 21,
@@ -5018,7 +5059,7 @@
                     "eventos": [
                         {
                             "data_evento": "12/10/2025",
-                            "descricao_evento": "Santa Padroeira do Brasil (Nossa Senhora Aparecida)",
+                            "descricao_evento": "Nossa Senhora Aparecida (Padroeira do Brasil)",
                             "participantes": []
                         },
                         {
@@ -5121,14 +5162,26 @@
                 {
                     "dia": 27,
                     "dia_semana": "Segunda-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "27/10/2025",
+                            "descricao_evento": "Antecipação ao dia do servidor públcio",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 28,
                     "dia_semana": "Terça-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "28/10/2025",
+                            "descricao_evento": "Dia do funcionário públcio",
+                            "participantes": ["DATA COMEMORATIVA"]
+                        }
+                    ]
                 },
                 {
                     "dia": 29,
@@ -5295,8 +5348,14 @@
                 {
                     "dia": 21,
                     "dia_semana": "Sexta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "21/11/2025",
+                            "descricao_evento": "Sucede o dia Estadual da Consciência Negra",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 22,
@@ -5373,20 +5432,20 @@
                 {
                     "dia": 2,
                     "dia_semana": "Terça-feira",
-                    "situacao": "FERIADO",
-                    "eventos": [
-                        {
-                            "data_evento": "02/12/2025",
-                            "descricao_evento": "Dia do Santo Padroeiro de Registro (São Francisco Xavier)",
-                            "participantes": []
-                        }
-                    ]
+                    "situacao": "LETIVO",
+                    "eventos": []
                 },
                 {
                     "dia": 3,
                     "dia_semana": "Quarta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "FERIADO",
+                    "eventos": [
+                        {
+                            "data_evento": "03/12/2025",
+                            "descricao_evento": "São Francisco Xavier (Dia do Santo Padroeiro de Registro)",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 4,
@@ -5511,8 +5570,14 @@
                 {
                     "dia": 24,
                     "dia_semana": "Quarta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "24/12/2025",
+                            "descricao_evento": "Véspera de Natal",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 25,
@@ -5529,8 +5594,14 @@
                 {
                     "dia": 26,
                     "dia_semana": "Sexta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "26/12/2025",
+                            "descricao_evento": "Sucede o Natal",
+                            "participantes": []
+                        }
+                    ]
                 },
                 {
                     "dia": 27,
@@ -5559,8 +5630,14 @@
                 {
                     "dia": 31,
                     "dia_semana": "Quarta-feira",
-                    "situacao": "LETIVO",
-                    "eventos": []
+                    "situacao": "PONTO FACULTATIVO",
+                    "eventos": [
+                        {
+                            "data_evento": "31/12/2025",
+                            "descricao_evento": "Véspera de Ano Novo",
+                            "participantes": []
+                        }
+                    ]
                 }
             ]
         }
