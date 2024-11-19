@@ -2535,7 +2535,18 @@
                     "dia": 22,
                     "dia_semana": "Sexta-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "22/11/2024",
+                            "descricao_evento": "Visita aos pontos turísticos, Projeto: 'REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA.'",
+                            "participantes": [
+                                "JARDIM 1-A",
+                                "JARDIM 1-B",
+                                "JARDIM 2-A",
+                                "JARDIM 2-B"
+                            ]
+                        }
+                    ]
                 },
                 {
                     "dia": 23,
@@ -2559,25 +2570,63 @@
                     "dia": 26,
                     "dia_semana": "Terça-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "26/11/2024",
+                            "descricao_evento": "Visita aos pontos turísticos, Projeto: 'REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA.'",
+                            "participantes": [
+                                "1º ANO-A",
+                                "1º ANO-B",
+                                "2º ANO-A",
+                                "2º ANO-B"
+                            ]
+                        }
+                    ]
                 },
                 {
                     "dia": 27,
                     "dia_semana": "Quarta-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "27/11/2024",
+                            "descricao_evento": "Visita aos pontos turísticos, Projeto: 'REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA.'",
+                            "participantes": [
+                                "3º ANO-A",
+                                "3º ANO-B",
+                                "4º ANO-A",
+                                "4º ANO-B"
+                            ]
+                        }
+                    ]
                 },
                 {
                     "dia": 28,
                     "dia_semana": "Quinta-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "28/11/2024",
+                            "descricao_evento": "Visita aos pontos turísticos, Projeto: 'REGISTRO NOSSA CIDADE, NOSSO LUGAR, NOSSA HISTÓRIA.'",
+                            "participantes": [
+                                "5º ANO-A"
+                            ]
+                        }
+                    ]
                 },
                 {
                     "dia": 29,
                     "dia_semana": "Sexta-feira",
                     "situacao": "LETIVO",
-                    "eventos": []
+                    "eventos": [
+                        {
+                            "data_evento": "29/11/2024",
+                            "descricao_evento": "Mostra Cultural",
+                            "participantes": [
+                                "TODOS PARTICIPAM"
+                            ]
+                        }
+                    ]
                 },
                 {
                     "dia": 30,
