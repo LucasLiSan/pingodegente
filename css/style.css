@@ -146,51 +146,6 @@ main {
     overflow-x: auto;
 }
 
-#sideBar {
-    width: 15rem;
-    height: 100%;
-    display: none;
-}
-
-#sideBarMenu {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 12rem;
-    height: 100%;
-    display: none;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    list-style: none;
-    background-color: var(--colorPalletThree);
-}
-
-#sideBarMenu li {
-    width: 100%;
-    height: 3rem;
-    display: flex;
-    text-align: center;
-}
-
-#sideBarMenu a {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    align-content: center;
-    text-decoration: none;
-    color: #FFFFFF;
-}
-
-#sideBarMenu a:hover {
-    background-color: var(--colorPalletTwo);
-    color: #000000;
-}
-#sideBarMenu a:active {
-    background-color: var(--colorPalletOne);
-    color: #FFFFFF;
-}
-
 article {
     width: 100%;
     display: flex;
@@ -207,6 +162,19 @@ section {
 }
 
 section:nth-child(odd) { background-color: var(--colorPalletTwo); }
+
+/* ------ index.html ------ */
+
+.indexBanner {
+    height: 55rem;
+    background-image: url("/assets/imgs/Logo1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* ------------------------------ */
 
 /* ------ professores.html ------ */
 
@@ -306,7 +274,10 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 /* ------------------------------ */
 
 /* ------ projetos.html ------ */
-#projectsArticle { align-content: flex-start; }
+#projectsArticle { 
+    align-content: flex-start; 
+    row-gap: 0;
+}
 .projectsSection { height: 35rem; }
 
 .projectsSection h1 {
@@ -1418,7 +1389,7 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
 
 .contactContent .left-side .details i{
     font-size: 30px;
-    color: #3e2093;
+    color: var(--colorPalletOne);
     margin-bottom: 10px;
 }
 
