@@ -1,0 +1,375 @@
+{
+    "horarios_funcionarios": [
+        {
+            "ano": 2024,
+            "funcionarios": [
+                {
+                    "nome": "ANA PAULA DA SILVA",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "ANDREA APARECIDA MARCOS MARTINS",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE EDUC. INFANTIL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": "APOSENTADA"
+                },
+                {
+                    "nome": "ANDREIA DE FREITAS",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "ANDREIA DOS SANTOS ALVES RODRIGUES",
+                    "cat": "APOIO",
+                    "cargo": "AUXILIAR DE SERVIÇOS GERAIS",
+                    "entrada": ["8:00"],
+                    "saida": ["17:30"],
+                    "almocoIn": "12:30",
+                    "almocoOut": "14:00",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "CILENE CRISTINA RODRIGUES OBAN",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª SUBST. DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": "SUBSTITUINDO NA EMEB PROFESSOR FERNANDO SÉRIGO CAMPOS MACHADO"
+                },
+                {
+                    "nome": "DENISE GONÇALVES BARROS",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE EDUC. INFANTIL",
+                    "entrada": [
+                        "8:00",
+                        "12:30"
+                    ],
+                    "saida": [
+                        "12:00",
+                        "17:30"
+                    ],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": [],
+                    "htpcOut": [],
+                    "obs": ""
+                },
+                {
+                    "nome": "FABIANA DIRCE DE FRANÇA",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª SUBST DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "FRANCIELLY CRISTINA PEREIRA",
+                    "cat": "APOIO",
+                    "cargo": "ATENDENTE ESCOLAR",
+                    "entrada": ["6:50"],
+                    "saida": ["15:50"],
+                    "almocoIn": "11:00",
+                    "almocoOut": "12:00",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "GISELE DAS NEVES GOMES RAMALHO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE EDUC. INFANTIL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": "LICENÇA PRÊMIO"
+                },
+                {
+                    "nome": "JACKELINE APARECIDA MARTINS CAMARGO",
+                    "cat": "APOIO",
+                    "cargo": "ATENDENTE ESCOLAR",
+                    "entrada": ["8:15"],
+                    "saida": ["17:15"],
+                    "almocoIn": "12:30",
+                    "almocoOut": "13:30",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "JANE TERESINHA LUSTOSA RODRIGUES",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª SUBST. EDUC. INFANTIL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": "AFASTADA"
+                },
+                {
+                    "nome": "JOSÉ ROBERTO DE AZEVEDO",
+                    "cat": "APOIO",
+                    "cargo": "AUXILIAR DE SERVIÇOS GERAIS",
+                    "entrada": ["6:45"],
+                    "saida": ["16:00"],
+                    "almocoIn": "11:55",
+                    "almocoOut": "13:10",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "JULIA GABRIELA MONTEIRO GATO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "COORD. PEDAGÓGICA SUBSTITUTA",
+                    "entrada": ["7:00"],
+                    "saida": ["16:00"],
+                    "almocoIn": "12:00",
+                    "almocoOut": "13:00",
+                    "htpcIn": [
+                        "08:00",
+                        "14:00"
+                    ],
+                    "htpcOut": [
+                        "10:00",
+                        "16:00"
+                    ],
+                    "obs": ""
+                },
+                {
+                    "nome": "KELI CRISTINA CLÁUDIO",
+                    "cat": "APOIO",
+                    "cargo": "CUIDADORA ESCOLAR",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "LIGIA APARECIDA OLIVEIRA MOREIRA",
+                    "cat": "APOIO",
+                    "cargo": "MERENDEIRA",
+                    "entrada": ["7:00"],
+                    "saida": ["16:00"],
+                    "almocoIn": "12:00",
+                    "almocoOut": "13:00",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": "REALOCADA EM OUTRA UNIDADE"
+                },
+                {
+                    "nome": "LUCAS DE LIMA SANTANA",
+                    "cat": "APOIO",
+                    "cargo": "SECRETÁRIO DE ESCOLA",
+                    "entrada": ["8:00"],
+                    "saida": ["17:00"],
+                    "almocoIn": "12:00",
+                    "almocoOut": "13:00",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": ""
+                },
+                {
+                    "nome": "LUCAS MARQUES DE FREITAS",
+                    "cat": "APOIO",
+                    "cargo": "ATENDENTE ESCOLAR",
+                    "entrada": ["8:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "12:00",
+                    "almocoOut": "13:00",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": "REALOCADA EM OUTRA UNIDADE"
+                },
+                {
+                    "nome": "LUCIMARA MACHADO TEIXEIRA TOGNIN",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "MARCOS RODRIGUES MARQUES DE AGUIAR",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROFº DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "REGIANE DOS SANTOS CARVALHO FUNK",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "RENATA FRANCISCA DE CAMARGO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "RENATO ALEXANDER PONCIANO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.º DE EDUC. FÍSICA",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "ROSA NILCE FERREIRA PEDROSO",
+                    "cat": "APOIO",
+                    "cargo": "CUIDADOR ESCOLAR",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": [""],
+                    "htpcOut": [""],
+                    "obs": "FIM DO CONTRATO"
+                },
+                {
+                    "nome": "ROSANGELA PINHEIRO LEANDRO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "DIRETORA DE ESCOLA",
+                    "entrada": ["7:30"],
+                    "saida": ["16:30"],
+                    "almocoIn": "11:30",
+                    "almocoOut": "12:30",
+                    "htpcIn": [
+                        "08:00",
+                        "14:00"
+                    ],
+                    "htpcOut": [
+                        "10:00",
+                        "16:00"
+                    ],
+                    "obs": ""
+                },
+                {
+                    "nome": "ROSANÍ MIDIOTE CLARO RODRIGUES",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["12:30"],
+                    "saida": ["17:30"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["8:00"],
+                    "htpcOut": ["10:00"],
+                    "obs": ""
+                },
+                {
+                    "nome": "SABRINA LOURENÇO QUERINO SALES",
+                    "cat": "APOIO",
+                    "cargo": "MERENDEIRA",
+                    "entrada": ["7:30"],
+                    "saida": ["16:30"],
+                    "almocoIn": "13:00",
+                    "almocoOut": "14:00",
+                    "htpcIn": [],
+                    "htpcOut": [],
+                    "obs": "LICENÇA PRÊMIO"
+                },
+                {
+                    "nome": "SONIA MARIA DE AZEVEDO",
+                    "cat": "APOIO",
+                    "cargo": "AUXILIAR DE SERVIÇOS GERAIS",
+                    "entrada": ["8:00"],
+                    "saida": ["17:30"],
+                    "almocoIn": "12:30",
+                    "almocoOut": "14:00",
+                    "htpcIn": [],
+                    "htpcOut": [],
+                    "obs": ""
+                },
+                {
+                    "nome": "TATIANA MICENE SOUSA LOBO",
+                    "cat": "MAGISTÉRIO",
+                    "cargo": "PROF.ª DE ENS. FUNDAMENTAL",
+                    "entrada": ["7:00"],
+                    "saida": ["12:00"],
+                    "almocoIn": "",
+                    "almocoOut": "",
+                    "htpcIn": ["14:00"],
+                    "htpcOut": ["16:00"],
+                    "obs": "LICENÇA PRÊMIO"
+                },
+                {
+                    "nome": "ZULEIKA NARDES MACEDO",
+                    "cat": "APOIO",
+                    "cargo": "MERENDEIRA",
+                    "entrada": ["6:30"],
+                    "saida": ["16:00"],
+                    "almocoIn": "11:00",
+                    "almocoOut": "13:00",
+                    "htpcIn": [],
+                    "htpcOut": [],
+                    "obs": ""
+                }
+            ]
+        }
+    ]
+}
