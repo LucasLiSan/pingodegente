@@ -13,6 +13,26 @@
     --fontFour: 'Block Berthold Regular';
 }
 
+::-webkit-scrollbar {
+    width: 12px; /* Largura da scrollbar */
+    height: 12px; /* Altura para barras horizontais */
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0; /* Cor do fundo da barra */
+    border-radius: 6px; /* Arredondar a borda do track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--colorPalletThree); /* Cor do "thumb" (a parte que desliza) */
+    border-radius: 6px; /* Arredondar a borda do thumb */
+    border: 3px solid #f0f0f0; /* Cria um espaço entre o thumb e o track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--colorPalletTwo); /* Cor ao passar o mouse */
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -173,6 +193,85 @@ section:nth-child(odd) { background-color: var(--colorPalletTwo); }
     background-position: center;
 }
 
+/* ------------------------------ */
+
+/* ------ transparencia.html ------ */
+
+.mainTransparencia {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.mainTransparencia article section { 
+    height: auto;
+    display: none; 
+}
+
+.mainTransparencia article section:first-child { display: block; }
+
+.mainTransparencia ul {
+    width: 100%;
+    max-height: 5rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    list-style: none;
+    gap: 1rem;
+    padding: 1rem;
+    background: #ff336680;
+}
+
+.mainTransparencia li {
+    flex: 0 0 auto;
+    width: auto;
+    height: 3rem;
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.mainTransparencia li:hover {
+    background-color: var(--colorPalletTwo);
+    border-radius: 2rem;
+}
+
+.mainTransparencia li > a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    color: #000000;
+    text-decoration: none;
+}
+
+#legal h1 {
+    width: 100%;
+    height: 5rem;
+    font-size: 3rem;
+    align-content: center;
+}
+
+#legal h2 {
+    margin: 1rem 0;
+}
+
+.portarias {
+    width: 100%;
+    height: 100%;
+    column-count: 2;
+    column-gap: 5rem;
+}
+
+.portarias span, .portarias a,
+.portarias h3, .portarias h4 {
+    width: 100%;
+}
 
 /* ------------------------------ */
 
