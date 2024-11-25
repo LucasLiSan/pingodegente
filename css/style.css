@@ -65,7 +65,7 @@ header {
     position: relative;
     width: 25rem;
     height: 10rem;
-    background-image: url(/assets/imgs/Logo2.webp);
+    background-image: url(../assets/imgs/Logo2.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ th {
 
 .indexBanner {
     height: 55rem;
-    background-image: url("/assets/imgs/Logo1.webp");
+    background-image: url("../assets/imgs/Logo1.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -445,16 +445,16 @@ th {
     align-content: flex-start; 
     row-gap: 0;
 }
-.projectsSection { height: 35rem; }
+.projectsSection { height: 40rem; }
 
 .projectsSection h1 {
     margin-bottom: 0.2rem;;
     font-size: 3rem;
     width: 100%;
-    font-family: var(--fontThree);
+    font-family: var(--fontTwo);
 }
 
-.projectsContainer { height: 70%; }
+.projectsContainer { height: 65%; }
 
 .container { width:100%; }
 
@@ -467,12 +467,16 @@ th {
 }
 
 .rotator {
-    width: 200%;
+    width: 400%;
     height: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     align-content: center;
     background: #7ea1c8;
     -webkit-animation: slide 10s infinite ease-out 5s;
@@ -517,7 +521,7 @@ th {
 
 .rotator > li:hover > div { box-shadow:0 20px 15px -10px rgba(0,0,0,.3); }
 
-.rotator img { height: 100%; }
+.rotator img { width: 100%; }
 
 /*Desktop and Tablet*/
 @-webkit-keyframes slide {
