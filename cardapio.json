@@ -7528,6 +7528,792 @@
                     ]
                 }
             ]
+        },
+        {
+            "mes": "Dezembro",
+            "ano": 2024,
+            "dias": [
+                {
+                    "dia": 1,
+                    "desjejum": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "DOMINGO",
+                            "almoco_do_dia": [],
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 2,
+                    "desjejum": [
+                        {
+                            "item1": "PONTO FACULTATIVO",
+                            "pic": "AntecedePadroeiro.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "PONTO FACULTATIVO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Antecede o dia do Santo Padroeiro de Registro (São Francisco Xavier)"
+                                }
+                            ],
+                            "pic": "AntecedePadroeiro.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "PONTO FACULTATIVO",
+                            "pic": "AntecedePadroeiro.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 3,
+                    "desjejum": [
+                        {
+                            "item1": "FERIADO",
+                            "pic": "DiaDoPadroeiro.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "FERIADO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Dia do Santo Padroeiro de Registro (São Francisco Xavier)"
+                                }
+                            ],
+                            "pic": "DiaDoPadroeiro.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "FERIADO",
+                            "pic": "DiaDoPadroeiro.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 4,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito maisena",
+                            "item2": "Chá",
+                            "pic": "BiscoitoMaisena.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Empanado de Frango",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Empanado de Frango",
+                                    "item4": "Salada de repolho"
+                                }
+                            ],
+                            "pic": "EmpanadoFrango.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 5,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito rosquinha de leite",
+                            "item2": "Leite com cacau em pó",
+                            "pic": "BiscoitoRosquinhaDeLeite.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos com abóbora",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne em cubos com abóbora",
+                                    "item3": "Salada de alface"
+                                }
+                            ],
+                            "pic": "CarneCubosAbobora.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Abacaxi",
+                            "pic": "Abacaxi.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 6,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada com margarina",
+                            "item2": "Leite",
+                            "pic": "Leite.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Macarronada ao sugo",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Macarronada ao sugo",
+                                    "item2": "Sobrecoxa assada",
+                                    "item3": "Salada de pepino e tomate"
+                                }
+                            ],
+                            "pic": "MacarraoAoSugo.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 7,
+                    "desjejum": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "Sabado.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "SÁBADO",
+                            "almoco_do_dia": [],
+                            "pic": "Sabado.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "Sabado.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 8,
+                    "desjejum": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "DOMINGO",
+                            "almoco_do_dia": [],
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 9,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito rosquinha de chocolate",
+                            "item2": "Leite com cacau em pó",
+                            "pic": "LeiteCacauPo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Escondidinho de carne moída",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Escondidinho de carne moída",
+                                    "item4": "Salada de pepino"
+                                }
+                            ],
+                            "pic": "EscondidinhoCarneMoida.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 10,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito maisena",
+                            "item2": "Chá",
+                            "pic": "Cha.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Galinhada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Frango",
+                                    "item3": "Cenoura",
+                                    "item4": "Chuchu"
+                                }
+                            ],
+                            "pic": "Galinhada.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Banana",
+                            "pic": "Banana.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 11,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada com margarina",
+                            "item2": "Leite",
+                            "pic": "BolachaSalgadaMargarina.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne em cubos cozida",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Carne em cubos cozida",
+                                    "item4": "Salada de alface"
+                                }
+                            ],
+                            "pic": "CarneCubosCozida.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 12,
+                    "desjejum": [
+                        {
+                            "item1": "Banana",
+                            "item2": "Leite e achocolatado",
+                            "pic": "Banana.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Risoto de frango com legumes",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Frango",
+                                    "item3": "Cenoura",
+                                    "item4": "Abobrinha"
+                                }
+                            ],
+                            "pic": "RisotoFrangoLegumes.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 13,
+                    "desjejum": [
+                        {
+                            "item1": "CONSELHO DE CLASSE",
+                            "pic": "ConselhoDeClasse.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "CONSELHO DE CLASSE",
+                            "almoco_do_dia": [],
+                            "pic": "ConselhoDeClasse.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "CONSELHO DE CLASSE",
+                            "pic": "ConselhoDeClasse.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 14,
+                    "desjejum": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "Sabado.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "SÁBADO",
+                            "almoco_do_dia": [],
+                            "pic": "Sabado.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "Sabado.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 15,
+                    "desjejum": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "DOMINGO",
+                            "almoco_do_dia": [],
+                            "pic": "Domingo.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "Domingo.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 16,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada integral com margarina",
+                            "item2": "Leite e achocolatado",
+                            "pic": "LeiteAchocolatado.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Carne moída refogada",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne moída refogada",
+                                    "item3": "Polenta",
+                                    "item4": "Salada de acelga"
+                                }
+                            ],
+                            "pic": "CarneMoidaRefogada.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 17,
+                    "desjejum": [
+                        {
+                            "item1": "Maçã",
+                            "item2": "Leite",
+                            "pic": "Maca.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Escondidinho de frango desfiado com cenoura",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Escondidinho de frango desfiado com cenoura"
+                                }
+                            ],
+                            "pic": "EscondidinhoDeFrangoDesfiadoCenoura.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 18,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito rosquinha de chocolate",
+                            "item2": "Leite",
+                            "pic": "BiscoitoRosquinhaDeChocolate.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Macarrão a bolonhesa",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Macarrão a bolonhesa",
+                                    "item2": "Salada de pepino"
+                                }
+                            ],
+                            "pic": "MacarraoBolonhesa.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 19,
+                    "desjejum": [
+                        {
+                            "item1": "Bolacha salgada com margarina",
+                            "item2": "Chá",
+                            "pic": "BolachaSalgadaMargarina.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Risoto de carne com legumes",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Carne",
+                                    "item3": "Chuchu",
+                                    "item4": "Vagem"
+                                }
+                            ],
+                            "pic": "RisotoDeCarneChuchuVagem.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "Maçã",
+                            "pic": "Maca.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 20,
+                    "desjejum": [
+                        {
+                            "item1": "Biscoito maisena",
+                            "item2": "Leite com cacau em pó",
+                            "pic": "LeiteCacauPo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "Sobrecoxa assada com batata doce",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Arroz",
+                                    "item2": "Feijão",
+                                    "item3": "Sobrecoxa assada",
+                                    "item4": "Batata doce"
+                                }
+                            ],
+                            "pic": "SobrecoxaAssadaBatataDoce.webp"
+                        }
+                    ],
+                    "sobremesa": []
+                },
+                {
+                    "dia": 21,
+                    "desjejum": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "SÁBADO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 22,
+                    "desjejum": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "DOMINGO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 23,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 24,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "VesperaDeNatal.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Véspera de Natal"
+                                }
+                            ],
+                            "pic": "VesperaDeNatal.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "VesperaDeNatal.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 25,
+                    "desjejum": [
+                        {
+                            "item1": "FERIADO",
+                            "pic": "Natal.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "FERIADO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Natal"
+                                }
+                            ],
+                            "pic": "Natal.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "FERIADO",
+                            "pic": "Natal.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 26,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "SucedeNatal.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Sucede o Natal"
+                                }
+                            ],
+                            "pic": "SucedeNatal.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "SucedeNatal.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 27,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 28,
+                    "desjejum": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "SÁBADO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "SÁBADO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 29,
+                    "desjejum": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "DOMINGO",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "DOMINGO",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 30,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Recesso escolar"
+                                }
+                            ],
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "RecessoEscolar.webp"
+                        }
+                    ]
+                },
+                {
+                    "dia": 31,
+                    "desjejum": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "VesperaDeAnoNovo.webp"
+                        }
+                    ],
+                    "almoco": [
+                        {
+                            "prato_do_dia": "RECESSO ESCOLAR",
+                            "almoco_do_dia": [
+                                {
+                                    "item1": "Véspera de Ano novo"
+                                }
+                            ],
+                            "pic": "VesperaDeAnoNovo.webp"
+                        }
+                    ],
+                    "sobremesa": [
+                        {
+                            "item1": "RECESSO ESCOLAR",
+                            "pic": "VesperaDeAnoNovo.webp"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
